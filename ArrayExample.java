@@ -29,6 +29,5 @@ public class ArrayExample {
         System.out.println(myNumbers[arr1][arr2]);
       }
     }
-
   }
 }
