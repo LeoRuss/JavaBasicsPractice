@@ -18,10 +18,20 @@ public class MethodExample {
     System.out.println(fname + " Rai");
   }
 
+  // method with multiple parameters
+  static void myThirdMethod(String fName, int age) {
+    System.out.println(fName + " is " + age);
+  }
+
   public static void main(String[] args) {
     myMethod();
+
     mySecondMethod("Russel");
     mySecondMethod("Leon");
     mySecondMethod("Kiyle");
+    
+    myThirdMethod("\nHamza", 18);
+    myThirdMethod("Sydney", 31);
+    myThirdMethod("Allham", 20);
   }
 }
