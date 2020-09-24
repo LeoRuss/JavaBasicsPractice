@@ -9,6 +9,24 @@ public class LoopsEg {
       System.out.println("While loop: " + i);
       i++;
     }
+
+    int num = 1;
+    while (num <= 20) {
+      if (num == 3) {
+        num += 2;
+        continue;
+      }
+      System.out.println(num);
+      num++;
+
+      if ((num % 2) == 0) {
+        num++;
+      }
+
+      if (num > 10) {
+        break;
+      }
+    }
     System.out.println(); //newline
 
     // do/while loop; a variant of while loop.
