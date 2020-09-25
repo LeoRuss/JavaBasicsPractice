@@ -33,6 +33,17 @@ public class MethodExample {
     return x * y;
   }
 
+  // a method that checks users age
+  static void checkAge(int age) {
+
+    // if age less than 18, access denied
+    if (age < 18) {
+      System.out.printf("Access Denied, You are %d.", age);
+    } else {
+      System.out.println("Access Granted");
+    }
+  }
+
   public static void main(String[] args) {
     myMethod();
 
@@ -51,5 +62,8 @@ public class MethodExample {
     // method result can be stored in a variable for improved readablity
     int mthdResult = mySecIntMtd(4, myIntMtd(5));
     System.out.println("Stored in variable: " + mthdResult);
+
+    checkAge(20);
+    checkAge(17);
   }
 }
