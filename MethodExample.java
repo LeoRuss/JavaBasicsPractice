@@ -44,6 +44,16 @@ public class MethodExample {
     }
   }
 
+  // method overloading; when 2 method have same variable name
+  // but different variable type e.g. int or double
+  static int plusMthd(int x, int y) {
+    return x + y;
+  }
+
+  static double plusMthd(double x, double y) {
+    return x + y;
+  }
+
   public static void main(String[] args) {
     myMethod();
 
@@ -65,5 +75,11 @@ public class MethodExample {
 
     checkAge(20);
     checkAge(17);
+
+    int myNum1 = plusMthd(5, 5);
+    double myNum2 = plusMthd(5, 5);
+
+    System.out.println("\nint: " + myNum1);
+    System.out.println("double: " + myNum2);
   }
 }
