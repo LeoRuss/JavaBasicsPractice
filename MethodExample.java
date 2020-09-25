@@ -46,6 +46,6 @@ public class MethodExample {
 
     System.out.println();
     System.out.println(myIntMtd(6));
-    System.out.println(mySecIntMtd(3, 2));
+    System.out.println(mySecIntMtd(3, myIntMtd(6)));
   }
 }
