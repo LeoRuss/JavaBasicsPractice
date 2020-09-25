@@ -23,6 +23,11 @@ public class MethodExample {
     System.out.println(fName + " is " + age);
   }
 
+  //method that returns a value like int, char etc.
+  static int myIntMtd(int x) {
+    return 3 + x;
+  }
+
   public static void main(String[] args) {
     myMethod();
 
@@ -33,5 +38,8 @@ public class MethodExample {
     myThirdMethod("\nHamza", 18);
     myThirdMethod("Sydney", 31);
     myThirdMethod("Allham", 20);
+
+    System.out.println();
+    myIntMtd(3);
   }
 }
