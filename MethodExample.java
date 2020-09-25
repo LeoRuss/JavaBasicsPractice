@@ -34,6 +34,7 @@ public class MethodExample {
   }
 
   // a method that checks users age
+  // if..else inside method
   static void checkAge(int age) {
 
     // if age less than 18, deny access
@@ -57,11 +58,13 @@ public class MethodExample {
   public static void main(String[] args) {
     myMethod();
 
+    System.out.println("One parameter method:");
     mySecondMethod("Dante");
     mySecondMethod("Leon");
     mySecondMethod("Kiyle");
 
-    myThirdMethod("\nHamza", 18);
+    System.out.println("\nTwo parameter method:");
+    myThirdMethod("Hamza", 18);
     myThirdMethod("Sydney", 31);
     myThirdMethod("Allham", 20);
 
@@ -71,10 +74,12 @@ public class MethodExample {
 
     // method result can be stored in a variable for improved readablity
     int mthdResult = mySecIntMtd(4, myIntMtd(5));
-    System.out.println("Stored in variable: " + mthdResult);
+    System.out.println("Stored in variable: " + mthdResult + "\n");
 
+    System.out.println("Method checking users age:");
     checkAge(20);
     checkAge(17);
+    System.out.println();
 
     int myNum1 = plusMthd(5, 5);
     double myNum2 = plusMthd(5, 5);
