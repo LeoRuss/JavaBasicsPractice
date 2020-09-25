@@ -36,7 +36,7 @@ public class MethodExample {
   // a method that checks users age
   static void checkAge(int age) {
 
-    // if age less than 18, access denied
+    // if age less than 18, deny access
     if (age < 18) {
       System.out.printf("Access Denied, You are %d.", age);
     } else {
