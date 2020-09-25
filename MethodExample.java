@@ -1,4 +1,10 @@
 public class MethodExample {
+  /**
+   * Variables are only accessible inside the region they are created. These are
+   * called scope. A variable inside a method cannot be used until its
+   * initialized. Variables decleared inside "{}" can only be used inside the
+   * brackets.
+   */
 
   // method or function which can be called using myMethod()
   static void myMethod() {
