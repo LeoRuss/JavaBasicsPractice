@@ -23,9 +23,14 @@ public class MethodExample {
     System.out.println(fName + " is " + age);
   }
 
-  //method that returns a value like int, char etc.
+  // method that returns a value like int, char etc.
   static int myIntMtd(int x) {
     return 3 + x;
+  }
+
+  // return method with two parameters
+  static int mySecIntMtd(int x, int y) {
+    return x * y;
   }
 
   public static void main(String[] args) {
@@ -34,12 +39,13 @@ public class MethodExample {
     mySecondMethod("Russel");
     mySecondMethod("Leon");
     mySecondMethod("Kiyle");
-    
+
     myThirdMethod("\nHamza", 18);
     myThirdMethod("Sydney", 31);
     myThirdMethod("Allham", 20);
 
     System.out.println();
-    myIntMtd(3);
+    System.out.println(myIntMtd(6));
+    System.out.println(mySecIntMtd(3, 2));
   }
 }
