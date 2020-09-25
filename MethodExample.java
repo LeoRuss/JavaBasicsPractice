@@ -15,7 +15,7 @@ public class MethodExample {
 
   // second method which takes one argument of type String
   static void mySecondMethod(String fname) {
-    System.out.println(fname + " Rai");
+    System.out.println(fname + " Morphine");
   }
 
   // method with multiple parameters
@@ -36,7 +36,7 @@ public class MethodExample {
   public static void main(String[] args) {
     myMethod();
 
-    mySecondMethod("Russel");
+    mySecondMethod("Dante");
     mySecondMethod("Leon");
     mySecondMethod("Kiyle");
 
@@ -45,7 +45,11 @@ public class MethodExample {
     myThirdMethod("Allham", 20);
 
     System.out.println();
-    System.out.println(myIntMtd(6));
-    System.out.println(mySecIntMtd(3, myIntMtd(6)));
+    System.out.println("Single parameter: " + myIntMtd(6));
+    System.out.println("Double parameter: " + mySecIntMtd(3, myIntMtd(6)));
+
+    // method result can be stored in a variable for improved readablity
+    int mthdResult = mySecIntMtd(4, myIntMtd(5));
+    System.out.println("Stored in variable: " + mthdResult);
   }
 }
