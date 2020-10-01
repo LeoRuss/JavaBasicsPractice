@@ -1,5 +1,11 @@
 public class ClassObjectExample {
 
+  int eg; // create a class attribute
+
+  public ClassObjectExample() {
+    eg = 5; // set the initial value for the class attributes eg
+  }
+
   static void runObject() {
     OtherClass myObject = new OtherClass();
 
@@ -50,5 +56,9 @@ public class ClassObjectExample {
     ClassObjectExample my2Car = new ClassObjectExample();
     my2Car.fullThrottle();
     my2Car.speed(120);
+    System.out.println();
+
+    ClassObjectExample newEg = new ClassObjectExample();
+    System.out.println(newEg.eg);
   }
 }
