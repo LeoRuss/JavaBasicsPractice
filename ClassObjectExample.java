@@ -3,10 +3,11 @@ public class ClassObjectExample {
     OtherClass myObj = new OtherClass();
     OtherClass my2Obj = new OtherClass();
 
-    my2Obj.x = 30;
-    System.out.println(myObj.x);
-    System.out.println(my2Obj.x);
-    runObject();
+    my2Obj.y = 50;
+
+    System.out.println(myObj.x); // output: 33
+    System.out.println(my2Obj.y); // output: 50
+    runObject(); // output: 5
   }
 
   static void runObject() {
