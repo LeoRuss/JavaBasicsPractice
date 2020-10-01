@@ -1,6 +1,4 @@
 public class ClassObjectExample {
-  int x = 5;
-
   public static void main(String[] args) {
     ClassObjectExample myObj = new ClassObjectExample();
 
