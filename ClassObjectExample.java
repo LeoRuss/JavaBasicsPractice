@@ -45,6 +45,10 @@ public class ClassObjectExample {
     ClassObjectExample myCar = new ClassObjectExample();
     myCar.fullThrottle();
     myCar.speed(200);
+    System.out.println();
 
+    ClassObjectExample my2Car = new ClassObjectExample();
+    my2Car.fullThrottle();
+    my2Car.speed(120);
   }
 }
