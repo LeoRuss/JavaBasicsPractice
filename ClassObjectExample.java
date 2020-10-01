@@ -1,14 +1,14 @@
 public class ClassObjectExample {
   public static void main(String[] args) {
-    ClassObjectExample myObj = new ClassObjectExample();
+    OtherClass myObj = new OtherClass();
 
     System.out.println(myObj.x);
     runObject();
   }
 
   static void runObject() {
-    ClassObjectExample myObject = new ClassObjectExample();
-    ClassObjectExample mySecondObj = new ClassObjectExample();
+    OtherClass myObject = new OtherClass();
+    OtherClass mySecondObj = new OtherClass();
 
     System.out.println(myObject.x);
     System.out.println(mySecondObj.x);
