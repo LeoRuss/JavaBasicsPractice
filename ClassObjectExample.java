@@ -10,7 +10,9 @@ public class ClassObjectExample {
 
   static void runObject() {
     ClassObjectExample myObject = new ClassObjectExample();
-    int valueOfMethd = myObject.x;
-    System.out.println(valueOfMethd);
+    ClassObjectExample mySecondObj = new ClassObjectExample();
+
+    System.out.println(myObject.x);
+    System.out.println(mySecondObj.x);
   }
 }
