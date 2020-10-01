@@ -1,10 +1,10 @@
 public class ClassObjectExample {
 
-  int eg; // create a class attribute
+  // int eg; // create a class attribute
 
-  public ClassObjectExample() {
-    eg = 5; // set the initial value for the class attributes eg
-  }
+  // public ClassObjectExample(int eg2) {
+  //   eg = eg2; // set the initial value for the class attributes eg
+  // }
 
   static void runObject() {
     OtherClass myObject = new OtherClass();
@@ -58,7 +58,8 @@ public class ClassObjectExample {
     my2Car.speed(120);
     System.out.println();
 
-    ClassObjectExample newEg = new ClassObjectExample();
-    System.out.println(newEg.eg);
+    //constructure example
+    // ClassObjectExample newEg = new ClassObjectExample(33);
+    // System.out.println(newEg.eg);
   }
 }
