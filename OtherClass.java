@@ -2,5 +2,5 @@ public class OtherClass {
   // x is an attribute of the class or a variables within a class
   // class attributes are also known as "fields"
   int x = 5;
-  int y = 3;
+  int y;
 }
