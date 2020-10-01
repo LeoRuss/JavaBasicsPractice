@@ -4,4 +4,8 @@ public class OtherClass {
   // putting final before assiging variables won't allow users to change it
   final int x = 5;
   int y;
+
+  String fname = "Leon";
+  String lname = "Doe";
+  int age = 25;
 }
