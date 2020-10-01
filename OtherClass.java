@@ -8,4 +8,11 @@ public class OtherClass {
   String fname = "Leon";
   String lname = "Doe";
   int age = 25;
+
+  public static void main(String[] args) {
+
+    ClassObjectExample newCar = new ClassObjectExample();
+    newCar.fullThrottle();
+    newCar.speed(250);
+  }
 }
