@@ -4,9 +4,11 @@ public class ClassObjectExample {
     OtherClass my2Obj = new OtherClass();
 
     my2Obj.y = 50;
+    myObj.y = 2;
 
-    System.out.println(myObj.x); // output: 33
+    System.out.println(myObj.x); // output: 5
     System.out.println(my2Obj.y); // output: 50
+    System.out.println(myObj.y); // output: 2
     runObject(); // output: 5
   }
 
