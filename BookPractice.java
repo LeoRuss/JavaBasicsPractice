@@ -1,3 +1,4 @@
+import static java.lang.System.out;
 
 public class BookPractice {
 
@@ -7,7 +8,7 @@ public class BookPractice {
         System.out.print(", ");
       if (i == 2)
         continue TestRun;
-      System.out.print(a[i]);
+      out.print(a[i]);
     }
   }
 
@@ -20,7 +21,7 @@ public class BookPractice {
   static void printSquareRoot(double x) {
     if (x < 0)
       return;
-    System.out.println(Math.sqrt(x));
+    out.println(Math.sqrt(x));
   }
 
   ////////////////////////////////////////
@@ -50,8 +51,8 @@ public class BookPractice {
     forLoopPractice(words);
     square(9);
     printSquareRoot(24);
-    System.out.println();
-    System.out.println(powerMthd(-9, 2));
+    out.println();
+    out.println(powerMthd(-9, 2));
 
     ////////////////////////////////////////////////
     String[] response = new String[2];
@@ -59,7 +60,7 @@ public class BookPractice {
     response[1] = "No";
 
     String question = "Do you want to quit ?";
-    System.out.println(question + " (" + response[0] + "/" + response[1] + "): ");
+    out.println(question + " (" + response[0] + "/" + response[1] + "): ");
 
     /////////////////////////////////////////////////
     int[] primes = { 2, 3, 5, 7, 11, 13, 17, 19, 23 };
@@ -78,8 +79,11 @@ public class BookPractice {
     String s = "hello";
     String t = "hell" + letter;
     if ( s.equals(t)) {
-      System.out.println("equal");
+      out.println("equal");
     }
+
+    ///////////////////////////////////
+
   }
 
   /////////////////////////////////////////
