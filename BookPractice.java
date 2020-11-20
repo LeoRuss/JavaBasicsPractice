@@ -81,11 +81,6 @@ public class BookPractice {
     if ( s.equals(t)) {
       out.println("equal");
     }
-
-    ///////////////////////////////////
-
-  }
-
   /////////////////////////////////////////
   public static void main(String[] args) {
 
